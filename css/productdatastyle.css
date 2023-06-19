@@ -1,0 +1,97 @@
+#productdata
+{
+    margin: 30px;
+}
+
+#productdata img
+{
+    margin-left: 30px;
+    width: 450px;
+    border: 2px solid black;
+}
+
+#productdata p
+{
+    font-size: 25px;
+}
+
+#name
+{
+    font-size: 35px !important;
+}
+
+#rogzit
+{
+    background-color: #01d936;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+#db
+{
+    width: 100px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+@media(max-width: 991px){
+    #productdata img
+    {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 576px){
+    #productdata img
+    {
+        width: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    #productdata img
+    {
+        width: 200px;
+    }
+
+    #rogzit
+    {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+}
+
+#parameters p
+{
+    font-size: 15px !important;
+    text-indent: 20px;
+}
+
+#parameters table tr td
+{
+    padding: 20px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link
+{
+    background-color: black !important;
+}
+
+
+@media(max-width: 310px){
+    #parameters table tr td
+    {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+}
+
+#fizmodok
+{
+    width: 240px !important;
+    border: none !important;
+}

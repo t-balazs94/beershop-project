@@ -1,0 +1,203 @@
+@font-face {
+    src: url(../font/Constantine.ttf);
+    font-family: Constantine;
+}
+
+@font-face {
+    src: url(../font/LiberationSerif-Regular.ttf);
+    font-family: LiberationSerif-Regular;
+}
+
+body
+{
+    font-family: Constantine;
+    color: #01d936;
+    background-color: #333;
+}
+
+h2
+{
+    color: white;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #01d936;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+p
+{
+    margin: 10px;
+}
+
+/*Nav*/
+
+#logo
+{
+    height: 80px;
+    width: 250px;
+}
+
+#firstrow
+{
+    background-color: #333;
+}
+
+#search
+{
+    width: 80%;
+}
+
+nav
+{
+    background-color: black;
+    text-align: center;
+}
+
+.nav-link
+{
+    color: #01d936 !important;
+}
+
+.nav-link:hover
+{
+    color: white !important;
+}
+
+/*Parallax*/
+
+#parallax{
+    background-image: url(../img/pub.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#parallax h1{
+    color: #fff;
+    text-align: center;
+    font-size: 5vw;
+    padding: 150px 0;
+    font-weight: bold;
+}
+
+@media(max-width: 767px){
+    #parallax h1
+    {
+        font-size: 40px;
+    }
+}
+
+/*Rólunk*/
+
+#taproom
+{
+    float: right;
+    height: 250px;
+    margin: 10px;
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+@media(max-width: 600px){
+    #taproom
+    {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 400px){
+    #taproom
+    {
+        width: 220px;
+    }
+}
+
+/*Termékek*/
+
+#termekek p
+{
+    margin: 0px;
+    font-size: 30px;
+}
+
+#termekkep
+{
+    width: 100%;
+    border: 2px solid black;
+}
+
+#ar
+{
+    float: right;
+}
+
+/*Carousel*/
+
+#carousel
+{
+    font-size: 50px;
+    color: #01d936;
+}
+
+
+#carouselpicture
+{
+    width: 100%;
+    height: 700px;
+}
+
+/*Sörtúra*/
+
+
+#brewery{
+    float: right;
+    margin-left: 15px;
+    margin-right: 30px;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+@media(max-width: 600px){
+    #brewery
+    {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 400px){
+    #brewery
+    {
+        width: 220px;
+    }
+}
+
+/*Elérhetőség*/
+
+#adatok{
+    text-align: center;
+    background-image: url(../img/beerriver.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+iframe
+{
+    width: 100%;
+}
+
+#google
+{
+    margin-bottom: -6px;
+}

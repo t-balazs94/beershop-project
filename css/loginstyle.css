@@ -1,0 +1,83 @@
+#login
+{
+    background-color: rgba(200, 200, 200, 0.85);
+    border-radius: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.row
+{
+    margin: 20px;
+}
+
+@media(max-width: 991px){
+    #login
+    {
+        width: 80%;
+    }
+
+}
+
+#beers
+{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+#inside
+{
+    padding: 30px;
+}
+
+#login p
+{
+    text-align: center;
+}
+
+#login a
+{
+    text-decoration: none;
+    color: brown;
+}
+
+#login a:hover
+{
+    color: #01d936;
+}
+
+#loginfelnev, #loginpassword 
+{
+    font-family: Arial;
+}
+
+.form-check-input:checked
+{
+    background-color: #01d936 !important;
+    border-color: #01d936 !important;
+}
+
+
+.form-outline:focus
+{
+    outline: none !important;
+}
+
+#loginbutton
+{
+    text-align: center;
+}
+
+#bejelentkezes
+{
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    width: 150px;
+}
+
+

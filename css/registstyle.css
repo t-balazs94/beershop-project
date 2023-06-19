@@ -1,0 +1,83 @@
+#regist{
+    width:800px;
+    padding:20px;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:10px;
+    font-weight: bold;
+}
+
+
+#regist .row
+{
+    margin: 0px;
+}
+
+#regist label
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pad
+{
+    padding: 12px;
+}
+
+.btn-danger{
+    border:1px solid black;
+    box-shadow: 3px 3px 5px black;
+    background-color: red;
+}
+
+input:hover
+{
+    border:1px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+
+input
+{
+    font-family: Arial !important;
+}
+
+#regist #check
+{
+    margin-left: 10px !important;
+}
+
+#regist #check:hover
+{
+    background-color: #01d936;
+}
+
+#regist #check:focus
+{
+    background-color: #01d936;
+}
+
+#regist #check:checked
+{
+    background-color: #01d936;
+}
+
+#regisztracio:hover
+{
+    background-color: #01d936;
+}
+
+#regisztracio
+{
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    width: 150px;
+}
+
+@media screen and (max-width: 576px)
+{
+    #regist
+    {
+        width:100%;
+    }
+    
+}
